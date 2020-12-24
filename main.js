@@ -43,8 +43,8 @@ function hoverModoDiurno() {
     instagram.addEventListener('mouseover', () => {instagram.src = 'assets/icon_instagram-hover.svg'});
     instagram.addEventListener('mouseout', () => {instagram.src = 'assets/icon_instagram.svg'});
     
-    next.addEventListener('mouseover', () => {next.src = 'assets/button-slider-right-hover.svg'});
-    next.addEventListener('mouseout', () => {next.src = 'assets/Button-slider-right.svg'});    
+    next.addEventListener('mouseover', () => {next.src = 'assets/Button-Slider-right-hover.svg'});
+    next.addEventListener('mouseout', () => {next.src = 'assets/Button-Slider-right.svg'});    
 }
 
 function hoverModoNocturno() {
@@ -118,7 +118,7 @@ const disableDarkMode = () => {
     createGifo.src = 'assets/button-crear-gifo.svg';
     closeImage.src = 'assets/close.svg';
     prev.src = 'assets/button-slider-left.svg';
-    next.src = 'assets/Button-slider-right.svg';
+    next.src = 'assets/Button-Slider-right.svg';
     camera.src = 'assets/camara.svg';
     film.src = 'assets/pelicula.svg';
     closeGifo.src = 'assets/close.svg';
