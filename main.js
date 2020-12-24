@@ -118,7 +118,7 @@ const disableDarkMode = () => {
     createGifo.src = 'assets/button-crear-gifo.svg';
     closeImage.src = 'assets/close.svg';
     prev.src = 'assets/button-slider-left.svg';
-    next.src = 'assets/button-slider-right.svg';
+    next.src = 'assets/Button-slider-right.svg';
     camera.src = 'assets/camara.svg';
     film.src = 'assets/pelicula.svg';
     closeGifo.src = 'assets/close.svg';
