@@ -821,7 +821,7 @@ function capitalize(word) {
     return word[0].toUpperCase() + word.slice(1)
 }
 
-function listTrendingWords() {
+async function listTrendingWords() {
     const apiTrendingWords = `https://api.giphy.com/v1/trending/searches?api_key=${key}`
     const response = await fetch(apiTrendingWords);
     const results = await response.json();
